@@ -259,15 +259,15 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("#0c0c0c")
       .setDescription(`
-**1play <title|URL|subcommand>** - plays the provided song
-**1skip** - votes to skip the current song
-**1stop** - stops the current song and clears the queue
-**1pause** - pauses the current song
-**1resume** - resume the current song
-**1volume [0-100]** - sets or shows volume
-**1leave** - leave the bot from voice channel
-**1np** - To see the song currently in use
-**1queue [pagenum]** - shows the current queue
+**2play <title|URL|subcommand>** - plays the provided song
+**2skip** - votes to skip the current song
+**2stop** - stops the current song and clears the queue
+**2pause** - pauses the current song
+**2resume** - resume the current song
+**2volume [0-100]** - sets or shows volume
+**2leave** - leave the bot from voice channel
+**2np** - To see the song currently in use
+**2queue [pagenum]** - shows the current queue
  `)
    message.channel.sendEmbed(embed)
    
